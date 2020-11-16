@@ -1,0 +1,15 @@
+-var PageTitle = "Dashboard";
+doctype html
+html
+    head(lang="en")
+        include pug/layout/meta
+        title #{PageTitle}
+        include pug/layout/stylies
+        include pug/layout/scripts1
+    body
+        .page.home-page
+            include pug/layout/sidebar
+            .content-area
+                h1 #{PageTitle}
+        
+        include pug/layout/scripts2

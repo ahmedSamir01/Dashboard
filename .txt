@@ -1,0 +1,46 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Roboto&display=swap" rel="stylesheet">
+
+
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+
+
+
+
+main
+
+    @media #{$maxLarge} {padding: 100px 0}
+    @media #{$maxMed} {padding: 90px 0}
+    @media #{$maxSmall} {padding: 80px 0}
+    @media #{$maxMobile} {padding: 70px 0}
+
+
+h2
+            @media #{$maxSmall} {font-size: 40px}
+            @media #{$maxMobile} {font-size: 30px}
+
+
+.text-lg-left.text-center
+.mt-lg-0.mt-5
+
+
+rem = 16px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

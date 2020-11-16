@@ -1,0 +1,5 @@
+pug "E:\Progra\Trainning\2020\Self\Work" -o "E:\Progra\Trainning\2020\Self\Work" -w -P
+sass --watch "E:\Progra\Trainning\2020\Self\Work\CSS":"E:\Progra\Trainning\2020\Self\Work\CSS"
+
+
+npm:
